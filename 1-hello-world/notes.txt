@@ -1,0 +1,12 @@
+Packages
+--------
+package <package_name> indicates which package the go file is part of
+A package is a named collection of >1 .go files to help isolate and reuse code 
+Files part of the same package can call each others function
+
+Commands
+------
+1. go run <file_name>
+to run file
+2. go build <file_name>
+builds the binaries in the format of <file_name> without .go extension
